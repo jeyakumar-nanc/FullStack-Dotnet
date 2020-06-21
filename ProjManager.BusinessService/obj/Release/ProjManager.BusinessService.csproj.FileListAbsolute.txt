@@ -1,0 +1,15 @@
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\Release\ProjManager.BusinessService.dll.config
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\Release\ProjManager.BusinessService.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\Release\ProjManager.BusinessService.pdb
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\Release\EntityFramework.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\Release\ProjManager.Data.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\Release\ProjManager.Data.pdb
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\Release\ProjManager.Data.dll.config
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\Release\EntityFramework.xml
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\obj\Release\ProjManager.BusinessService.csprojAssemblyReference.cache
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\obj\Release\ProjManager.BusinessService.csproj.CoreCompileInputs.cache
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\obj\Release\ProjManager.BusinessService.csproj.CopyComplete
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\obj\Release\ProjManager.BusinessService.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\obj\Release\ProjManager.BusinessService.pdb

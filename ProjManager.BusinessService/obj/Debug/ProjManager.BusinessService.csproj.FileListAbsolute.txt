@@ -1,0 +1,15 @@
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\obj\Debug\ProjManager.BusinessService.csprojAssemblyReference.cache
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\obj\Debug\ProjManager.BusinessService.csproj.CoreCompileInputs.cache
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\obj\Debug\ProjManager.BusinessService.csproj.CopyComplete
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\obj\Debug\ProjManager.BusinessService.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\obj\Debug\ProjManager.BusinessService.pdb
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\ProjManager.BusinessService.dll.config
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\ProjManager.BusinessService.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\ProjManager.BusinessService.pdb
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\EntityFramework.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\EntityFramework.SqlServer.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\ProjManager.Data.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\ProjManager.Data.pdb
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\ProjManager.Data.dll.config
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\EntityFramework.xml
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.BusinessService\bin\EntityFramework.SqlServer.xml

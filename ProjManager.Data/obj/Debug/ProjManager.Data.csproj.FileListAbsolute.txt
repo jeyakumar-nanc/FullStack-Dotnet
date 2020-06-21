@@ -1,0 +1,12 @@
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\obj\Debug\ProjManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\obj\Debug\ProjManager.Data.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\obj\Debug\ProjManager.Data.pdb
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\obj\Debug\ProjManager.Data.csproj.CopyComplete
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\bin\ProjManager.Data.dll.config
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\bin\ProjManager.Data.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\bin\ProjManager.Data.pdb
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\bin\EntityFramework.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\bin\EntityFramework.SqlServer.dll
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\bin\EntityFramework.xml
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\bin\EntityFramework.SqlServer.xml
+C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Data\obj\Debug\ProjManager.Data.csprojAssemblyReference.cache
