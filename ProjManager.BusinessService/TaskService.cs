@@ -87,6 +87,19 @@ namespace ProjManager.BusinessService
             }
         }
 
+        public void AddParentTask(TASK task)
+        {
+            using (ProjectManagerEntities pmEntities = new ProjectManagerEntities())
+            {
+                var parenttask = new PARENT_TASK
+                {
+                    ParentTask = task.TaskName
+                };
+                pmEntities.Entry(parenttask).State = System.Data.Entity.EntityState.Added;
+                pmEntities.SaveChanges();
+            }
+        }
+
         public void UpdateTask(TASK task)
         {
             using (ProjectManagerEntities pmEntities = new ProjectManagerEntities())

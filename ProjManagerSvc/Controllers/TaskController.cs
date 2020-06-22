@@ -54,6 +54,22 @@ namespace ProjManagerSvc.Controllers
             }
         }
 
+        [Route("AddT")]
+        [HttpPost]
+        public IHttpActionResult AddParentTask(TASK task)
+        {
+            try
+            {
+                taskService.AddParentTask(task);
+                return Ok();
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
         [Route("Update")]
         [HttpPut]
         public IHttpActionResult UpdateTask(TASK task)
