@@ -125,13 +125,7 @@ namespace ProjManager.Test
             var response = projSvc.UpdateProj(item);
             Assert.AreEqual("System.Web.Http.Results.BadRequestErrorMessageResult", response.GetType().FullName);
         }
-
-        [Test]
-        public void DeleteProjByWrongIdTest()
-        {
-            var response = projSvc.DeleteProj(0);
-            Assert.AreEqual("System.Web.Http.Results.BadRequestErrorMessageResult", response.GetType().FullName);
-        }       
+       
     }
 }
 
