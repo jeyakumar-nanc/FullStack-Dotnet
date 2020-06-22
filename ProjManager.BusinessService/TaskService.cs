@@ -123,24 +123,24 @@ namespace ProjManager.BusinessService
             }
         }
 
-        public List<TASK> DeleteTask(int id)
-        {
-            using (ProjectManagerEntities pmEntities = new ProjectManagerEntities())
-            {
-                var tsk = pmEntities.TASKs.Find(id);
-                if (tsk != null)
-                {
-                    pmEntities.TASKs.Remove(tsk);
-                    pmEntities.SaveChanges();
-                    return pmEntities.TASKs.ToList();
-                }
-                else
-                {
-                    throw new Exception("Task not found");
-                }
+        //public List<TASK> DeleteTask(int id)
+        //{
+        //    using (ProjectManagerEntities pmEntities = new ProjectManagerEntities())
+        //    {
+        //        var tsk = pmEntities.TASKs.Find(id);
+        //        if (tsk != null)
+        //        {
+        //            pmEntities.TASKs.Remove(tsk);
+        //            pmEntities.SaveChanges();
+        //            return pmEntities.TASKs.ToList();
+        //        }
+        //        else
+        //        {
+        //            throw new Exception("Task not found");
+        //        }
 
-            }
-        }
+        //    }
+        //}
 
         public void EndTask(TASK task)
         {

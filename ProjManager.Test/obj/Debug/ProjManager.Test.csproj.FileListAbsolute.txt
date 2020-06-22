@@ -30,8 +30,6 @@ C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjMan
 C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Test\bin\Newtonsoft.Json.xml
 C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Test\bin\nunit.framework.pdb
 C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Test\bin\nunit.framework.xml
-C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Test\bin\System.Web.Http.Cors.xml
 C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Test\bin\ProjManager.BusinessService.pdb
 C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Test\bin\ProjManager.BusinessService.dll.config
-C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Test\bin\System.Web.Http.WebHost.xml
 C:\Users\Nancy\Documents\FSE\Final-SBA\ProjManagerService\ProjManagerSvc\ProjManager.Test\bin\System.Net.Http.Formatting.xml

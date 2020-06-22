@@ -85,21 +85,21 @@ namespace ProjManagerSvc.Controllers
             }
         }
 
-        [Route("Remove/{id}")]
-        [HttpDelete]
-        public IHttpActionResult DeleteTask(int id)
-        {
-            try
-            {
+        //[Route("Remove/{id}")]
+        //[HttpDelete]
+        //public IHttpActionResult DeleteTask(int id)
+        //{
+        //    try
+        //    {
 
-                var updatedList = taskService.DeleteTask(id);
-                return Ok(updatedList);
-            }
-            catch (System.Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
+        //        var updatedList = taskService.DeleteTask(id);
+        //        return Ok(updatedList);
+        //    }
+        //    catch (System.Exception ex)
+        //    {
+        //        return BadRequest(ex.Message);
+        //    }
+        //}
 
         [Route("EndTask")]
         [HttpPut]

@@ -5,7 +5,7 @@ using System;
 
 namespace ProjManager.LoadTest
 {
-    public class TaskLoadTest
+    public class TaskLoadTest : PerformanceTestSuite<TaskLoadTest>
     {
         TaskService tskSvc = new TaskService();
 
@@ -113,6 +113,51 @@ namespace ProjManager.LoadTest
             for (var i = 0; i < 100; i++)
             {
                 tskSvc.UpdateTask(item);
+            }
+        }
+
+
+        //Load test to measure throughput of end task  method 
+        [PerfBenchmark(NumberOfIterations = 1,
+           RunMode = RunMode.Throughput,
+           TestMode = TestMode.Test,
+           SkipWarmups = true)]
+        [ElapsedTimeAssertion(MaxTimeMilliseconds = 2000)]
+
+        public void EndTask_Benchmark_Performance()
+        {
+            var item = new TASK
+            {
+                TaskName = "Implementation - Tech",
+                ProjectId = 4,
+                StartDate = new DateTime(2020, 11, 13),
+                EndDate = new DateTime(2020, 11, 13),
+                TaskId = 19
+            };
+
+            for (var i = 0; i < 100; i++)
+            {
+                tskSvc.EndTask(item);
+            }
+        }
+
+        //Load test to measure throughput of Add parent task  method 
+        [PerfBenchmark(NumberOfIterations = 1,
+           RunMode = RunMode.Throughput,
+           TestMode = TestMode.Test,
+           SkipWarmups = true)]
+        [ElapsedTimeAssertion(MaxTimeMilliseconds = 2000)]
+
+        public void AddParentTask_Benchmark_Performance()
+        {
+            var item = new TASK
+            {
+                TaskName = "DR-Env Setup"
+            };
+
+            for (var i = 0; i < 100; i++)
+            {
+                tskSvc.AddParentTask(item);
             }
         }
     }
