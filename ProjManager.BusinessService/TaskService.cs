@@ -15,7 +15,7 @@ namespace ProjManager.BusinessService
                               join project in pmEntities.PROJECTs on task.ProjectId equals project.ProjectId
                               join user in pmEntities.USERS on task.UserId equals user.UserId
                               join parentTask in pmEntities.PARENT_TASK on task.ParentId equals parentTask.ParentId
-                              where task.Status.ToLower()!="complete"
+                              where task.Status.ToLower()!="complete" && project.Status.ToLower() != "suspended"
                               select new TaskData
                               {
                                   TaskName = task.TaskName,

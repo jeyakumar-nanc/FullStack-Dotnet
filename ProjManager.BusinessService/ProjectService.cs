@@ -10,27 +10,8 @@ namespace ProjManager.BusinessService
         public List<PROJECT> GetAllProjects()
         {
             using (ProjectManagerEntities pmEntities = new ProjectManagerEntities())
-            {
-
-                var result = from task in pmEntities.TASKs
-                             join project in pmEntities.PROJECTs on task.ProjectId equals project.ProjectId
-                             join user in pmEntities.USERS on task.UserId equals user.UserId
-                             join parentTask in pmEntities.PARENT_TASK on task.ParentId equals parentTask.ParentId
-                             select new TaskData
-                             {
-                                 TaskName = task.TaskName,
-                                 ProjectId = project.ProjectId,
-                                 ProjectName = project.ProjectName,
-                                 StartDate = task.StartDate,
-                                 EndDate = task.EndDate,
-                                 ParentTask = parentTask.ParentTask,
-                                 TaskId = task.TaskId,
-                                 Status = task.Status,
-                                 Priority = task.Priority,
-                                 User = user.FirstName + " " + user.LastName
-                             };
-
-                return pmEntities.PROJECTs.ToList();
+            {                
+                return pmEntities.PROJECTs.Where(s=>s.Status.ToLower() != "suspended").ToList();
             }
         }
 
