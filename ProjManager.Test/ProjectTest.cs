@@ -102,6 +102,33 @@ namespace ProjManager.Test
             };
         }
 
+        [Test]
+        public void SuspendProjTest()
+        {
+            var item = new PROJECT
+            {
+                ProjectId = 2,
+                ProjectName = "FSE-Testing",
+                Priority = 1,
+                StartDate = new System.DateTime(2020, 06, 16),
+                EndDate = new System.DateTime(2020, 12, 31)
+            };
+
+            var response = projSvc.SuspendProj(item);
+            var expectedRes = projSvc.GetProjbyId(2);
+            Assert.IsInstanceOf(typeof(OkNegotiatedContentResult<PROJECT>), expectedRes);
+            PROJECT expected = (PROJECT)((OkNegotiatedContentResult<PROJECT>)expectedRes).Content;
+
+            if (expectedRes != null)
+            {
+                Assert.AreEqual(expected.StartDate, item.StartDate);
+                Assert.AreEqual(expected.EndDate, item.EndDate);
+                Assert.AreEqual(expected.Priority, item.Priority);
+                Assert.AreEqual(expected.ProjectId, item.ProjectId);
+                Assert.AreEqual(expected.ProjectName, item.ProjectName);
+                Assert.AreEqual(expected.Status, "Suspended");
+            };
+        }
 
         [Test]
         public void GetProjByWrongIdTest()
@@ -125,7 +152,23 @@ namespace ProjManager.Test
             var response = projSvc.UpdateProj(item);
             Assert.AreEqual("System.Web.Http.Results.BadRequestErrorMessageResult", response.GetType().FullName);
         }
-       
+
+        [Test]
+        public void SuspendProjByWrongIdTest()
+        {
+            var item = new PROJECT
+            {
+                ProjectId = 0,
+                ProjectName = "FSE-Testing",
+                Priority = 1,
+                StartDate = new System.DateTime(2020, 06, 16),
+                EndDate = new System.DateTime(2020, 12, 31)
+
+            };
+            var response = projSvc.SuspendProj(item);
+            Assert.AreEqual("System.Web.Http.Results.BadRequestErrorMessageResult", response.GetType().FullName);
+        }
+
     }
 }
 

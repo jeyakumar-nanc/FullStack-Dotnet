@@ -58,7 +58,6 @@ namespace ProjManager.LoadTest
         }
 
 
-
         //Load test to measure throughput of Add task  method 
         [PerfBenchmark(NumberOfIterations = 1,
            RunMode = RunMode.Throughput,

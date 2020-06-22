@@ -90,5 +90,30 @@ namespace ProjManager.LoadTest
                 prjSvc.UpdateProj(item);
             }
         }
+
+
+        //Load test to measure throughput of suspend Project method
+        [PerfBenchmark(NumberOfIterations = 1,
+           RunMode = RunMode.Throughput,
+           TestMode = TestMode.Test,
+           SkipWarmups = true)]
+        [ElapsedTimeAssertion(MaxTimeMilliseconds = 2000)]
+
+        public void SuspendProject_Benchmark_Performance()
+        {
+            var item = new PROJECT
+            {
+                ProjectId = 2,
+                ProjectName = "FSE-Testing",
+                Priority = 1,
+                StartDate = new System.DateTime(2020, 06, 16),
+                EndDate = new System.DateTime(2020, 12, 31)
+            };
+
+            for (var i = 0; i < 100; i++)
+            {
+                prjSvc.SuspendProj(item);
+            }
+        }
     }
 }
