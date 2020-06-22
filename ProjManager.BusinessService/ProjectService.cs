@@ -81,21 +81,23 @@ namespace ProjManager.BusinessService
             }
         }
 
-        public List<PROJECT> DeleteProj(int projId)
+        public void SuspendProj(PROJECT proj)
         {
             using (ProjectManagerEntities pmEntities = new ProjectManagerEntities())
             {
-                PROJECT prjct = pmEntities.PROJECTs.Find(projId);
-                if (prjct != null)
+                var tsk = pmEntities.PROJECTs.Find(proj.ProjectId);
+                if (tsk != null)
                 {
-                    pmEntities.PROJECTs.Remove(prjct);
+                    tsk.Status = "Suspended";
+                    pmEntities.Entry(tsk).State = System.Data.Entity.EntityState.Modified;
                     pmEntities.SaveChanges();
-                    return pmEntities.PROJECTs.ToList();
+
                 }
                 else
                 {
-                    throw new Exception("Project not found");
+                    throw new Exception("Task not found");
                 }
+
             }
         }
     }

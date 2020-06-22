@@ -71,14 +71,14 @@ namespace ProjManagerSvc.Controllers
             }
         }
 
-        [Route("Remove/{id}")]
-        [HttpDelete]
-        public IHttpActionResult DeleteProj(int id)
+        [Route("Suspend")]
+        [HttpPut]
+        public IHttpActionResult SuspendProj(PROJECT proj)
         {
             try
             {
-                var updatedList = projService.DeleteProj(id);
-                return Ok(updatedList);
+                projService.SuspendProj(proj);
+                return Ok();
             }
             catch (System.Exception ex)
             {
