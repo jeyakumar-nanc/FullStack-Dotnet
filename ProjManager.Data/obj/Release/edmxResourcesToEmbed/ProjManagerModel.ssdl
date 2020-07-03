@@ -16,6 +16,7 @@
     <Property Name="StartDate" Type="datetime" />
     <Property Name="EndDate" Type="datetime" />
     <Property Name="Priority" Type="int" />
+    <Property Name="Status" Type="varchar" MaxLength="30" />
   </EntityType>
   <EntityType Name="TASK">
     <Key>
